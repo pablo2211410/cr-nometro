@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro de Objetivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Estudar 4 Cursos na Alura</h1>
+
+    <div class="abas">
+        <button onclick="mostrarAba(0)">Objetivo 1</button>
+        <button onclick="mostrarAba(1)">Objetivo 2</button>
+        <button onclick="mostrarAba(2)">Objetivo 3</button>
+        <button onclick="mostrarAba(3)">Objetivo 4</button>
+    </div>
+
+    <!-- ABA 1 -->
+    <div class="conteudo ativo" id="aba0">
+        <h2>Criar 5 projetos em JavaScript</h2>
+
+        <div class="cronometro">
+            <div class="tempo">
+                <span id="dias0">0</span>
+                <small>Dias</small>
+            </div>
+
+            <div class="tempo">
+                <span id="horas0">0</span>
+                <small>Horas</small>
+            </div>
+
+            <div class="tempo">
+                <span id="min0">0</span>
+                <small>Min</small>
+            </div>
+
+            <div class="tempo">
+                <span id="seg0">0</span>
+                <small>Seg</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABA 2 -->
+    <div class="conteudo" id="aba1">
+        <h2>Aprender HTML e CSS</h2>
+
+        <div class="cronometro">
+            <div class="tempo"><span id="dias1">0</span><small>Dias</small></div>
+            <div class="tempo"><span id="horas1">0</span><small>Horas</small></div>
+            <div class="tempo"><span id="min1">0</span><small>Min</small></div>
+            <div class="tempo"><span id="seg1">0</span><small>Seg</small></div>
+        </div>
+    </div>
+
+    <!-- ABA 3 -->
+    <div class="conteudo" id="aba2">
+        <h2>Desenvolver um Portfólio</h2>
+
+        <div class="cronometro">
+            <div class="tempo"><span id="dias2">0</span><small>Dias</small></div>
+            <div class="tempo"><span id="horas2">0</span><small>Horas</small></div>
+            <div class="tempo"><span id="min2">0</span><small>Min</small></div>
+            <div class="tempo"><span id="seg2">0</span><small>Seg</small></div>
+        </div>
+    </div>
+
+    <!-- ABA 4 -->
+    <div class="conteudo" id="aba3">
+        <h2>Conseguir o primeiro estágio</h2>
+
+        <div class="cronometro">
+            <div class="tempo"><span id="dias3">0</span><small>Dias</small></div>
+            <div class="tempo"><span id="horas3">0</span><small>Horas</small></div>
+            <div class="tempo"><span id="min3">0</span><small>Min</small></div>
+            <div class="tempo"><span id="seg3">0</span><small>Seg</small></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
